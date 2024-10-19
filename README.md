@@ -1,4 +1,4 @@
-Ansible Ad-Hoc commands to deplo
+Ansible Ad-Hoc commands to deploy
 Prerequisites
 - Ansible installed on your control node
 - SSH access to the target node(samplenode2).
