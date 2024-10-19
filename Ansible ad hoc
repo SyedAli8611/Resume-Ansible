@@ -1,1 +1,2 @@
 ansible samplenode2 -m package -a "name=apache2 state=present"
+vi index.html
