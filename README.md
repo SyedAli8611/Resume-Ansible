@@ -1,5 +1,6 @@
-Ansible Ad-Hoc commands to deploy
-Prerequisites
+**Ansible Ad-Hoc commands to deploy**
+
+**Prerequisites**
 - Ansible installed on your control node
 - SSH access to the target node(samplenode2).
 - The index.html file must be created and saved in your working directory or you can create it later.
