@@ -1,3 +1,4 @@
 ansible samplenode2 -m package -a "name=apache2 state=present"
 vi index.html
 ansible samplenode2 -m copy -a "src=index.html dest=/var/www/html" --become
+ansible samplenode2 -m service -a "name=apache2 state=started"
