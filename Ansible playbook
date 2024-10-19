@@ -1,0 +1,8 @@
+---
+- name: Web Deployment
+  hosts: samplenode2
+  tasks:
+    - name: Install Apache
+      package:
+        name: apache2
+        state: present
